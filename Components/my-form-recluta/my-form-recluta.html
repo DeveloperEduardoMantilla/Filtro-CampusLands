@@ -1,0 +1,66 @@
+<div class="content_form">
+    <h1>Add Recluta</h1>
+    <!-- <form id="form-producto">
+        <input type="text" name="producto" placeholder="Producto" id="produc_nombre" value="Pc Prueba">
+        <input type="text" name="descripcion" placeholder="Descripcion" id="produc_descripcion" value="Descripcion del pc">
+        <input type="text" name="categoriaId" placeholder="CategoriaId" id="produc_categoria" value=1>
+        <select id="my-select" name="categoriaId"></select>
+        <button type="submit">Enviar</button>
+    </form> -->
+    <form id="add_recluta">
+        <input type="text" name="nombre" id="nombre_Recluta"  placeholder="Nombre Recluta" required>
+        <input type="number" name="edad" id="edad_Recluta" placeholder="Edad" required>
+        <input type="number" name="telefono" id="telefono_Recluta" placeholder="Telefono" required>
+        <input type="email" name="email" id="email_Recluta" placeholder="Email" required>
+        <input type="text" name="direccion" id="direccion_Recluta" placeholder="Direccion" required>
+        <input type="date" name="fechaNacimiento" id="nacimiento_Recluta" required>
+        <input type="number" name="documento" id="documento_Recluta" placeholder="Documento" required>
+        <input type="date" name="fechaIngresoPrograma" id="ingreso_Recluta" required>
+        <!--<input type="text" name="idTeam" id="team_Recluta" placeholder="Team" required>-->
+        <select name="idTeam" id="idTeam"></select>
+        <button class="btn btn-primary">Enviar</button>
+    </form>    
+</div>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .content_form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding: 40px 0;
+    }
+    h1{
+        text-align: center;
+    }
+    form{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    input, select, button{
+        width: 300px;
+        box-sizing: border-box;
+        height: 40px;
+    }
+
+    button{
+        border: #0000;
+        background-color: #F4D03F;
+        color: black;
+        font-weight: 700;
+    }
+    .students{
+        color: #000000;
+        background-color: #ffffff;
+        border: 1px solid #000;
+    }
+</style>

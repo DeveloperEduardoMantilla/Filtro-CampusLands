@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #17202A !important;
+}
+
+.modulo{
+    background: #fff;
+    width: 100%;
+    padding: 40px 60px;
+    box-shadow: 5px 10px 15px gray;
+    margin: 90px 0;
+}
+.modulo h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#entrada{
+    background-image: url('../img/fondo.jpeg');
+    width: 100%;
+    height: 400px;
+}
+.header{
+    background-color: #212f3c5d !important;
+}
+.navbar-brand{
+    color: #F4D03F !important;
+    font-weight: 600;
+}
+.capa{
+    background-color:#212f3c5d;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capa h2{
+    font-size: 180px;
+    color: #F4D03F;
+    font-weight: 800;
+}

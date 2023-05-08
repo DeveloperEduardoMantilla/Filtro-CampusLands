@@ -1,0 +1,57 @@
+<div class="content_form">
+    <h1>add modulo skill</h1>
+    <!-- <form id="form-producto">
+        <input type="text" name="producto" placeholder="Producto" id="produc_nombre" value="Pc Prueba">
+        <input type="text" name="descripcion" placeholder="Descripcion" id="produc_descripcion" value="Descripcion del pc">
+        <input type="text" name="categoriaId" placeholder="CategoriaId" id="produc_categoria" value=1>
+        <select id="my-select" name="categoriaId"></select>
+        <button type="submit">Enviar</button>
+    </form> -->
+    <form id="add_md_skill">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <select name="idSkill" id="idSkill"></select>
+        <button class="btn btn-primary">Enviar</button>
+    </form>    
+</div>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .content_form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding: 40px 0;
+    }
+    h1{
+        text-align: center;
+    }
+    form{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    input, select, button{
+        width: 300px;
+        box-sizing: border-box;
+        height: 40px;
+    }
+    button{
+        border: #0000;
+        background-color: #F4D03F;
+        color: black;
+        font-weight: 700;
+    }
+    .students{
+        color: #000000;
+        background-color: #ffffff;
+        border: 1px solid #000;
+    }
+</style>

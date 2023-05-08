@@ -1,0 +1,145 @@
+{
+  "recluta": [
+    {
+      "id": 1,
+      "nombre": "Ingrith",
+      "edad": "21",
+      "telefono": "123",
+      "email": "email@gmail.com",
+      "direccion": "direccion",
+      "fechaNacimiento": "2000-01-01",
+      "documento": "1005154643",
+      "fechaIngresoPrograma": "2000-01-01",
+      "idTeam": "4"
+    },
+    {
+      "id": 3,
+      "nombre": "Daniel 123",
+      "edad": "23",
+      "telefono": "321456",
+      "email": "daniel@gmail.com",
+      "direccion": "Lebrija",
+      "fechaNacimiento": "2053-01-20",
+      "documento": "123123",
+      "fechaIngresoPrograma": "2332-01-20",
+      "idTeam": "1"
+    },
+    {
+      "nombre": "Edgar Eduardo Mantilla Garcia",
+      "edad": "123",
+      "telefono": "3167967956",
+      "email": "eduardoma876@gmail.com",
+      "direccion": "Lebrija Santander",
+      "fechaNacimiento": "2023-05-29",
+      "documento": "1234567890",
+      "fechaIngresoPrograma": "2023-05-03",
+      "idTeam": "2",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "nombre": "Santiago",
+      "edad": "24",
+      "telefono": "3167967956",
+      "email": "santiago@gmail.com",
+      "direccion": "Cabecera",
+      "fechaNacimiento": "2012-01-01",
+      "documento": "1005154643",
+      "fechaIngresoPrograma": "2012-01-01",
+      "idTeam": "1"
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "nombre": "Sputnik 2",
+      "trainerAsociado": "Maria Sanchez"
+    },
+    {
+      "id": 2,
+      "nombre": "Apolo",
+      "trainerAsociado": " Jose Perez"
+    },
+    {
+      "id": 4,
+      "nombre": "Tierra",
+      "trainerAsociado": "Andres"
+    },
+    {
+      "nombre": "123",
+      "trainerAsociado": "Jose Perez 2",
+      "id": 5
+    },
+    {
+      "nombre": "123",
+      "trainerAsociado": "1",
+      "id": 6
+    }
+  ],
+  "skill": [
+    {
+      "id": 1,
+      "nombre": "Html"
+    },
+    {
+      "id": 2,
+      "nombre": "JavaScript"
+    },
+    {
+      "id": 3,
+      "nombre": "Bootstrap"
+    },
+    {
+      "id": 4,
+      "nombre": "Java"
+    },
+    {
+      "id": 5,
+      "nombre": "Php 2"
+    },
+    {
+      "id": 6,
+      "nombre": "Python"
+    },
+    {
+      "nombre": "Prueba",
+      "id": 7
+    }
+  ],
+  "moduloSkill": [
+    {
+      "id": 1,
+      "nombre": "Front-End",
+      "idSkill": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Back-End",
+      "idSkill": 4
+    },
+    {
+      "id": 3,
+      "nombre": "Edgar Eduardo Mantilla Garcia",
+      "idSkill": "5"
+    },
+    {
+      "id": 4,
+      "nombre": "Full-Stack",
+      "idSkill": "4"
+    }
+  ],
+  "evaluacion": [
+    {
+      "id": 1,
+      "idRecluta": 1,
+      "idModulo": 1,
+      "nota": 5
+    },
+    {
+      "id": 2,
+      "idRecluta": 2,
+      "idModulo": 2,
+      "nota": 4.1
+    }
+  ]
+}
