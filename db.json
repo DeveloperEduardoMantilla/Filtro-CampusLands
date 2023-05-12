@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "nombre": "Santiago",
+      "nombre": "Santiago 2323",
       "edad": "24",
       "telefono": "3167967956",
       "email": "santiago@gmail.com",
@@ -102,8 +102,8 @@
       "nombre": "Python"
     },
     {
-      "nombre": "Prueba",
-      "id": 7
+      "id": 7,
+      "nombre": "Prueba 2 2323"
     }
   ],
   "moduloSkill": [

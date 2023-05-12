@@ -3,29 +3,18 @@ export default{
         let plantilla=
         `   
             <header id="header"></header>
-            <div id="entrada"><div class="capa"><h2>Star Wars</h2></div></div>
-            <div class="container">
-                <div class="modulo" id="mdSKill">
-                    <h2>Modulos Skill</h2>
-                    <div id="moduloSkill"></div>
+            
+            <div id="entrada">
+                <div class="capa">
+                    <div class="modulo" id="mdEvaluacion">
+                        <div class="moduloCotent" id="moduloCotent">
+                            
+                        </div>
+                    </div>
                 </div>
-                <div class="modulo" id="modulosSKillss">
-                    <h2>Skill</h2>
-                    <div id="skill"></div>
-                </div>
-                <div class="modulo" id="moduloTeamss">
-                <h2>Modulo Teams</h2>
-                    <div id="teams"></div>
-                </div>
+            </div>
 
-                </div>
-
-                <div class="modulo container" id="moduloReclutas">
-                    <h2>Modulos Reclutas</h2>
-                    <div id="reclutas"></div>
-                </div>
-
-            </div> 
+ 
             
         `;
         document.querySelector("#app").insertAdjacentHTML("beforeend",plantilla)
@@ -33,6 +22,10 @@ export default{
 }
 
 /* 
+
+<h2>Modulo Evaluacion</h2>
+                            <div id="moduloEvaluacion"</div>
+
 export default{
     showBody(){
         let plantilla=

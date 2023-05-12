@@ -12,39 +12,82 @@ body{
 }
 
 .modulo{
-    background: #fff;
     width: 100%;
-    padding: 40px 60px;
-    box-shadow: 5px 10px 15px gray;
-    margin: 90px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.modulo h2{
+.moduloCotent{
+    background-color: rgba(255, 255, 255, 0.747);
+    margin-top: 90px;
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 25px;
+    transition: all  ease-in-out 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+.moduloCotent:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.moduloCotent h2{
+    width: 100%;
+    font-size: 35px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    color: #17202A;
 }
 #entrada{
-    background-image: url('../img/fondo.jpeg');
+    background-image: url('../img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 100vh;
 }
 .header{
-    background-color: #212f3c5d !important;
+    width: 100%;
+    position: fixed !important;
 }
 .navbar-brand{
-    color: #F4D03F !important;
+    color: #fff !important;
     font-weight: 600;
 }
+.nav-item a{
+    color: #fff !important;
+    transition: all ease-in-out 1s;
+}
+.nav-item a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
 .capa{
-    background-color:#212f3c5d;
+    background-color:#41414173;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.capa h2{
-    font-size: 180px;
-    color: #F4D03F;
-    font-weight: 800;
+
+/*ESTILOS TABLA*/
+.btn-eliminar{
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: #884EA0;
+    color: #fff;
+}
+.btn-editar{
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D4AC0D;
+    color: #fff;
+}
+#tabla_skill{
+    width: 600px;
 }

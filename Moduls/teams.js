@@ -34,7 +34,7 @@ export default{
             document.querySelector("#tabla_datos_teams").insertAdjacentHTML("beforeend", event.data)
 
         }
-        document.querySelector("#teams").insertAdjacentHTML("beforeend", plantilla);
+        document.querySelector("#moduloCotent").innerHTML= plantilla;
 
         document.querySelector("#tabla_teams").addEventListener('click', (e)=>{
             if (e.target.matches('.eliminarTeam')) {

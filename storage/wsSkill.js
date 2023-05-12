@@ -15,8 +15,8 @@ const getAllSkill = async()=>{
                 <th scope="row">${data[res].id}</th>
                 <td>${data[res].nombre}</td>
                 <td>
-                    <button href="#" id='${data[res].id}' class="eliminarSkill">Eliminar</button>
-                    <button href="#" id='${data[res].id}' class="editarSkill">Editar</button>
+                    <button href="#" id='${data[res].id}' class="btn-eliminar eliminarSkill">Eliminar</button>
+                    <button href="#" id='${data[res].id}' class="btn-editar editarSkill">Editar</button>
                 </td>
             </tr>
             `;

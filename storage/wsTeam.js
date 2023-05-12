@@ -33,8 +33,8 @@ const getAllTeams = async()=>{
                 <td>${data[res].nombre}</td>
                 <td>${data[res].trainerAsociado}</td>
                 <td>
-                    <button href="#" id='${data[res].id}' class="eliminarTeam">Eliminar</button>
-                    <button href="#" id='${data[res].id}' class="editarTeam">Editar</button>
+                    <button href="#" id='${data[res].id}' class="btn-eliminar eliminarTeam">Eliminar</button>
+                    <button href="#" id='${data[res].id}' class="btn-editar editarTeam">Editar</button>
                 </td>
             </tr>
             `;

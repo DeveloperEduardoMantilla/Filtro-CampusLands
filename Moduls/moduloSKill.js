@@ -34,8 +34,7 @@ export default{
         worker.onmessage = function(event){
             document.querySelector("#tabla_datos_md_Skills").insertAdjacentHTML("beforeend", event.data)
         }
-        document.querySelector("#moduloSkill").insertAdjacentHTML("beforeend", plantilla);
-
+        document.querySelector("#moduloCotent").innerHTML= plantilla;
         document.querySelector("#tabla_Skills").addEventListener('click', (e)=>{
             if (e.target.matches('.eliminarMdSkill')) {
                 let idSkill=e.target.id;

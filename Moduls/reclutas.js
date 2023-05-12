@@ -2,6 +2,7 @@ export default{
     showReclutas(){
         let plantilla=
         `
+        <h2>Reclutas</h2>
         <div class="form-group col-12 col-md-2">
             <label>Buscador General</label>
             <input id="buscarRecluta" value="" class="form-control">
@@ -52,8 +53,7 @@ export default{
             document.querySelector("#tabla_datos_reclutas").insertAdjacentHTML("beforeend", event.data)
 
         }
-        document.querySelector("#reclutas").insertAdjacentHTML("beforeend", plantilla);
-
+        document.querySelector("#moduloCotent").innerHTML= plantilla;
         document.querySelector("#tabla_reclutas").addEventListener('click', (e)=>{
             if (e.target.matches('.eliminarRecluta')) {
                 let idRecluta=e.target.id;

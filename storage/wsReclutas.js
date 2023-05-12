@@ -23,8 +23,8 @@ const getAllReclutas = async()=>{
                 <td>${data[res].fechaIngresoPrograma}</td>
                 <td>${team.nombre}</td>
                 <td>
-                    <button href="#" id='${data[res].id}' class="eliminarRecluta">Eliminar</button>
-                    <button href="#" id='${data[res].id}' class="editarRecluta">Editar</button>
+                    <button href="#" id='${data[res].id}' class="btn-eliminar eliminarRecluta">Eliminar</button>
+                    <button href="#" id='${data[res].id}' class="btn-editar editarRecluta">Editar</button>
                 </td>
             </tr>
             `;

@@ -16,8 +16,8 @@ const getAllMdSkills = async()=>{
                 <td>${data[res].nombre}</td>
                 <td>${sk.nombre}</td>
                 <td>
-                    <button href="#" id='${data[res].id}' class="eliminarMdSkill">Eliminar</button>
-                    <button href="#" id='${data[res].id}' class="editarMdSkill">Editar</button>
+                    <button href="#" id='${data[res].id}' class="btn-eliminar eliminarMdSkill">Eliminar</button>
+                    <button href="#" id='${data[res].id}' class="btn-editar editarMdSkill">Editar</button>
                 </td>
             </tr>
             `;

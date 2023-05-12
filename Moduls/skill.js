@@ -2,6 +2,7 @@ export default{
     showSkills(){
         let plantilla=
         `
+        <h2>Skill</h2>
         <div class="form-group col-12 col-md-2">
             <label>Buscador General</label>
             <input id="buscarSkill" value="" class="form-control">
@@ -31,7 +32,7 @@ export default{
         worker.onmessage = function(event){
             document.querySelector("#tabla_datos_skill").insertAdjacentHTML("beforeend", event.data)
         }
-        document.querySelector("#skill").insertAdjacentHTML("beforeend", plantilla);
+        document.querySelector("#moduloCotent").innerHTML= plantilla;
 
         document.querySelector("#tabla_skill").addEventListener('click', (e)=>{
             if (e.target.matches('.eliminarSkill')) {
